@@ -4,57 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ec34c1a-fd09-4367-8b54-c59655bf3f49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/CinemaHallDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/MovieDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/MovieSessionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/ShoppingCartDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/TicketDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/impl/CinemaHallDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/impl/MovieDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/impl/MovieSessionDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/impl/OrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/impl/ShoppingCartDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/impl/TicketDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/exception/AuthenticationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/exception/DataProcessingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/exception/RegistrationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/lib/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/lib/Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/lib/Injector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/lib/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/model/CinemaHall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/model/MovieSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/model/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/security/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/security/AuthenticationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/CinemaHallService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/MovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/MovieSessionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/ShoppingCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/impl/CinemaHallServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/impl/MovieServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/impl/MovieSessionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/util/HashUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cinema/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="9ec34c1a-fd09-4367-8b54-c59655bf3f49" name="Changes" comment="refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cinema/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cinema/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,16 +52,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/angel/IdeaProjects/my-cinema-app/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/angel/IdeaProjects/my-cinema-app/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\angel\IdeaProjects\my-cinema-app\src\main\resources" />
@@ -147,6 +100,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660392140590</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactoring">
+      <created>1660406187338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660406187338</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>

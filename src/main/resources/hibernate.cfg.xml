@@ -1,19 +1,19 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
-        <property name = "connection.url">jdbc:mysql://localhost:3306/cinema?serverTimeZone=UTC</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/cinema?serverTimeZone=UTC</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name = "connection.username">root</property>
-        <property name = "connection.password">Qwerty12</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">Qwerty12</property>
         <property name="show_sql">true</property>
         <property name="hbm2ddl.auto">create-drop</property>
 
-        <mapping class="mate.academy.model.Movie"/>
-        <mapping class="mate.academy.model.CinemaHall"/>
-        <mapping class="mate.academy.model.MovieSession"/>
-        <mapping class="mate.academy.model.User"/>
-        <mapping class="mate.academy.model.ShoppingCart"/>
-        <mapping class="mate.academy.model.Ticket"/>
-        <mapping class="mate.academy.model.Order"/>
+        <mapping class="cinema.model.Movie"/>
+        <mapping class="cinema.model.CinemaHall"/>
+        <mapping class="cinema.model.MovieSession"/>
+        <mapping class="cinema.model.User"/>
+        <mapping class="cinema.model.ShoppingCart"/>
+        <mapping class="cinema.model.Ticket"/>
+        <mapping class="cinema.model.Order"/>
     </session-factory>
 </hibernate-configuration>
