@@ -24,7 +24,7 @@ public class Main {
         MovieService movieService =
                 (MovieService) injector.getInstance(MovieService.class);
 
-        Movie fastAndFurious = new Movie("Fast and Furious");
+        Movie fastAndFurious = new Movie("Fast and Furious.");
         fastAndFurious.setDescription("An action film about street racing, heists, and spies");
         movieService.add(fastAndFurious);
         System.out.println(movieService.get(fastAndFurious.getId()));
